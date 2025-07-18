@@ -1,0 +1,68 @@
+.app {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.league-info {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.team-card {
+  background: #eaeaea;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+}
+
+.team-card p {
+  font-size: 0.9rem;
+  word-break: break-word;
+  margin: 0;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  word-break: break-word;
+}
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.player-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.player-item {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  text-align: left;
+}
+
